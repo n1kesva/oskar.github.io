@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic-ext');
+
+body {
+	font-family: Comfortaa, cursive;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	background: url(../img/oskarBg.jpg) top center no-repeat fixed #000;
+}
+h1 {
+	font-family: Roboto, sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0 0 1px rgba(0,0,0,0.9);
+	margin-top: 30px;
+	opacity: .8;
+}
+h2, h3, nav, .toOrder {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	text-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+a, a:link, a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.line {
+	border-top: 1px solid black;
+	box-shadow: 0 0 2px rgba(0,0,0,0.9);
+	margin-top: 15px;
+}
+.container {
+	background: url(../img/filmBg.png) top center no-repeat,
+	linear-gradient(rgba(240,240,240,.6), rgba(0,0,0,.5), rgba(240,240,240,.6));
+}
+header p {
+	text-align: center;
+}
+p a img {
+	margin-top: 17px;
+}
+nav ul {
+	margin: 0 auto;
+	margin-top: 15px;
+}
+nav ul li{
+	display: inline-block;
+	font-size: 22px;
+	color: #000;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 5px;
+	margin-bottom: 2px;
+	box-shadow: inset 0 0 3px rgba(0,0,255,0.9);
+	background-color: #F8F8F8;
+}
+nav ul li:nth-child(even) {
+	box-shadow: inset 0 0 3px rgba(255,0,0,0.9);
+}
+nav ul li:last-child {
+	margin: 0;
+}
+nav ul li a{
+	display: block;
+}
+nav ul li:hover {
+	background-color: #09F;
+	box-shadow: 0 0 5px rgba(255,0,0,0.9);
+}
+nav ul li:hover:nth-child(even) {
+	background-color: #FF5A5A;
+	box-shadow: 0 0 5px rgba(0,0,255,0.9);
+}
+div.row, .contacts ul {
+	border: 1px solid black;
+	border-radius: 6px;
+	margin-top: 15px;
+}
+.blueHall h2 {
+	text-shadow: 0 0 1px rgba(0,0,255,.9);
+}
+.redHall h2 {
+	text-shadow: 0 0 1px rgba(255,0,0,.9);
+}
+.blueHall, .specialOffer {
+	box-shadow: inset 0 0 6px rgba(0,0,255,0.9);
+}
+.redHall, .contacts {
+	box-shadow: inset 0 0 6px rgba(255,0,0,0.9);
+}
+.blueHall, .redHall, .specialOffer, .contacts {
+	background-color: #F0F0F0;
+}
+.blueHall ul, .redHall ul, .specialOffer ul {
+	margin-top: 15px;
+}
+.blueHall ul li, .redHall ul li, .specialOffer ul li {
+	padding-left: 30px;
+	background: url(../img/star.png) left top no-repeat;
+}
+.blueHall a.blueOrder, .redHall a.redOrder, .specialOffer a.specialOrder {
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 6px;
+	box-shadow: inset 0 0 6px rgba(0,0,255,0.9);
+	padding: 15px 0;
+	background-color: #F8F8F8;
+	margin-bottom: 15px;
+}
+.redHall a.redOrder, .contacts ul {
+	box-shadow: inset 0 0 6px rgba(255,0,0,0.9);
+}
+a.blueOrder:hover, a.specialOrder:hover {
+	background-color: #09F;
+	box-shadow: inset 0 0 50px rgba(0,0,255,1);
+}
+a.redOrder:hover {
+	background-color: #FF5A5A;
+	box-shadow: inset 0 0 50px rgba(255,0,0,1);
+}
+.video, .map{
+	width: 100%;
+	border: none;
+}
+.video {
+	height: 285px;
+}
+.map {
+	height: 335px;
+}
+.contacts p.workHours {
+	text-align: center;
+}
+#order {
+	margin-bottom: 15px;
+	background-color: #F8F8F8;
+}
+#order li {
+	line-height: 1.7;
+	text-align: center;
+	font-size: 26px;
+}
+
+#order li img {
+	margin-right: 5px;
+}
+#order li a:hover{
+	color: #09F;
+}
+footer {
+	margin-top: 15px;
+}
+footer ul {
+	text-align: center;
+}
+footer ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.social {
+	color: #000;
+	font-size: 40px;
+	padding: 0 10px;
+}
+.social:hover {
+	color: #09F;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+		nav ul {
+		margin-top: 15px;
+		width: 80%;
+	}
+	nav ul li {
+		display: block;
+	}
+}
+@media screen and (max-width: 768px) {
+		nav ul {
+		margin-top: 15px;
+		width: 100%;
+	}
+	nav ul li {
+		display: block;
+	}
+}
